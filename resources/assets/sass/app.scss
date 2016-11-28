@@ -1,0 +1,44 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Import fonts
+@font-face {
+	font-family: Royal;
+	src: url('../fonts/Royal.ttf');
+}
+
+@font-face {
+	font-family: 'Royal2';
+	src: url('../fonts/Royal2.ttf');
+}
+
+@font-face {
+	font-family: GreatVibes;
+	src: url('../fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+	font-family: Sacramento;
+	src: url('../fonts/Sacramento-Regular.ttf');
+}
+
+@font-face {
+	font-family: Playball;
+	src: url('../fonts/Playball-Regular.ttf');
+}
+
+html,body,* {
+	font-family: 'Playball', Arial, sans-serif !important;
+}
+// Style override
+.navbar-brand {
+	font-family: 'Playball',Arial,sans-serif !important;
+}
+
